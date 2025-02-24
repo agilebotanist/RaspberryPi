@@ -10,3 +10,10 @@ sudo hdparm -t /dev/mmcblk0
 # Throtling test
 
 vcgencmd get_throttled
+
+
+# CPU test
+
+vcgencmd measure_clock arm
+
+htop
